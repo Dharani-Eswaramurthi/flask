@@ -10,7 +10,7 @@ from slack_sdk import WebClient
 SLACK_CLIENT_ID = "7121533323552.7268736007858"
 SLACK_CLIENT_SECRET = "34faad1be66b19a7a99e9cf64b1e2eb6"
 SLACK_SIGNING_SECRET = "496770db047189c6a32e1b7d49d41176"
-REDIRECT_URI = "https://8f78-14-139-180-86.ngrok-free.app/slack/oauth_redirect"
+REDIRECT_URI = "https://18.61.57.191:3000/slack/oauth_redirect"
 
 # Initialize a Flask app to handle web requests
 flask_app = Flask(__name__)
