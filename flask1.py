@@ -59,5 +59,5 @@ def oauth_redirect():
 
 # Start the Flask app
 if __name__ == "__main__":
-    flask_app.run(debug=True, host="0.0.0.0", port=3000)
+    flask_app.run(debug=True, port=3000)
 
